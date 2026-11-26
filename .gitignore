@@ -1,0 +1,47 @@
+# Executable files
+*.exe
+
+# Frontend dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+dist/
+frontend/dist/
+build/bin/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Generated reports
+reports/
+output/
+
+# Local application data
+/testdata/
+
+# Backup files
+*.zip
+
+# Generated reports
+reports/
+output/
+exports/
+backups/
